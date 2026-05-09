@@ -1,6 +1,53 @@
-.web{
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(4, 35, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-card{
+    background: rgb(91, 215, 253);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px;
+    width: 300px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+level{
+    font-size: 25px;
+    font-weight: 800px;
+    color: rgb(4, 42, 56);
+}
+.w{
     text-align: center;
-    background-color: aqua;
-    padding: 30px;
-    margin: 20px;
+    color: rgb(4, 39, 56);
+}
+input{
+    padding: 12px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: medium;
+}
+button{
+    background-color: rgb(5, 63, 65);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    padding: 12px;
+   border-style:inset
+    border-radius: 10px;
+    border-color: black;
+    font-size: 18px;
+    font-weight: blod;
+
+}
+button:hover{
+    background-color: rgb(10, 104, 133);
 }
